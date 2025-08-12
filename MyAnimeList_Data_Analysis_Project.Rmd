@@ -51,7 +51,7 @@ library(factoextra)
 
 ## Loading Our Dataset:
 ```{r}
-anime.dataset.2023 <- read.csv("C:/Users/alexd/Downloads/anime-dataset-2023.csv", comment.char="#")
+anime.dataset.2023 <- read.csv("anime-dataset-2023.csv", comment.char="#")
 summary(anime.dataset.2023)
 ```
 
@@ -766,6 +766,7 @@ fviz_cluster(kmeans_result, data = k_mean_dataset,
 ##### The largest lesson learned from this process was how much time data scientist learn just through cleaning data itself. Whether that was deciding which variables to delete, normalizing columns, or changing data types, this was by far the most time consuming portion. It reminds me that while getting the results may be easy(writing functions to obtain those results), the preparation for the testing procedure is the first and biggest step.
 
 ##### This has been a long, yet fun project that combined my love for anime with my passion for data science. I had a blast exploring the different ways I could analyize data through the various statistical techniques learned throughout courses. I hope to revisit this project in the future, and continue to draw more conclusions with this expansive dataset. 
+
 
 
 
